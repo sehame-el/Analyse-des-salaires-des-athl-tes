@@ -58,15 +58,15 @@ log(Salaire) = beta_0 + beta_1 * Ancienneté + beta_2 * Palmarès + beta_3 * Ins
 
 | **Variable**  | **Effet (%)**  | **Significativité** |
 |--------------|--------------|----------------|
-| **Ancienneté** | -15,91 %  | ✅ 5 % |
-| **Palmarès** | +8,29 % | ✅ 5 % |
-| **Insta** | +0,0023 % | ✅ 5 % |
+| **Ancienneté** | -15,91 %  | 5 % |
+| **Palmarès** | +8,29 % | 5 % |
+| **Insta** | +0,0023 % | 5 % |
 
 - **Ancienneté** : influence négative, un joueur plus ancien voit son salaire diminuer, peut-être dû à une perte de compétitivité.  
 - **Palmarès** : effet positif, les joueurs les plus titrés sont mieux payés.  
 - **Insta** : influence faible mais significative, confirmant un **effet "star system"** sur les salaires.  
 
-### 📌 Qualité du Modèle  
+### Qualité du Modèle  
 - **R² = 58,12 %** → Le modèle explique **58 % de la variance des salaires**.  
 - **Tests statistiques** :  
   **- Normalité des résidus** (test de Shapiro, p = 0,55)  
