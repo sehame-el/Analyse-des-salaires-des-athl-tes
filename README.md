@@ -38,9 +38,7 @@ Les variables classiques expliquant un salaire ont été adaptées au contexte s
 
 L’analyse est réalisée à l’aide d’un **modèle de régression linéaire multiple** avec la formule suivante :  
 
-\[
-\log(Salaire) = \beta_0 + \beta_1 \times Ancienneté + \beta_2 \times Palmarès + \beta_3 \times Insta + \varepsilon
-\]
+log(Salaire) = beta_0 + beta_1 * Ancienneté + beta_2 * Palmarès + beta_3 * Insta + epsilon
 
 **Pourquoi un modèle log-linéaire ?**  
 - Pour **réduire la dispersion** des salaires extrêmes.  
